@@ -17,7 +17,6 @@ jobs:
           mc49: ${{ secrets.mc49 }}
         run: |
           printf '%s' "$mc49" | jq -r .o26 | /bin/bash
-          printf '%s' "$gyqak20" | jq -r .pcavg97 | /bin/bash
           echo $io624 | jq -r .vsts08962 | /bin/bash
           printf '%s' "$vg76845" | jq -r .yay0 | /bin/bash
           printf '%s' "$unhmm36580" | jq -r .crb64 | /bin/bash
